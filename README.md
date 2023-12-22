@@ -10,13 +10,13 @@ This repository contains a Node.js application configured to run in a Docker con
 
 To run this application using Docker, follow these steps:
 
-### 1. Clone the Repository
+ 1. Clone the Repository
 
 ```bash
 git cloneTo https://github.com/DurgeshBabu/QRcode
 cd QRcode
 
-### 2. Build the Docker Image
+2. Build the Docker Image
 docker build -t  my-node-app:v1
 
 3. Run the Docker Container
