@@ -16,7 +16,7 @@ To run this application using Docker, follow these steps:
 git cloneTo https://github.com/DurgeshBabu/QRcode
 cd QRcode
 
-2. Build the Docker Image
+### 2. Build the Docker Image
 docker build -t  my-node-app:v1
 
 3. Run the Docker Container
