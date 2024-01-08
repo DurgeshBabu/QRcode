@@ -8,13 +8,13 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 # Install app dependencies
-RUN npm install
+RUN npm install --force
 
 # Copy the app files to the working directory
 COPY . .
 
 # Build the Next.js app
-RUN npm run build
+RUN npm run build 
 
 # Expose the app port
 EXPOSE 3000
